@@ -24,7 +24,7 @@ class ActivityHome : AppCompatActivity() {
         val viewModelQueens = ViewModelProviders.of(this).get(QueensViewModel::class.java)
         val adapterQueens = AdapterQueens(queens, this)
         recycler.adapter = adapterQueens
-        val layoutManager = GridLayoutManager(this, 2)
+        val layoutManager = GridLayoutManager(this, 3)
         recycler.layoutManager = layoutManager
 
         viewModelQueens.getAllQueens()
