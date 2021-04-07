@@ -7,7 +7,7 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardview_character"
+        android:id="@+id/cardview_participant"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -23,7 +23,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imgcharacter_card"
+                android:id="@+id/img_participant_card"
                 android:layout_width="120dp"
                 android:layout_height="240dp"
                 android:layout_gravity="center_horizontal"
@@ -41,7 +41,7 @@
                 android:textColor="@android:color/white"
                 android:textSize="12sp"
                 android:textStyle="bold"
-                app:layout_constraintTop_toBottomOf="@+id/imgcharacter_card"
+                app:layout_constraintTop_toBottomOf="@+id/img_participant_card"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
 

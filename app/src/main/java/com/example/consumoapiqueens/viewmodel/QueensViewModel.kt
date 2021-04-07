@@ -18,6 +18,4 @@ class QueensViewModel : ViewModel() {
             listMutableQueen.postValue(queensResponse)
         }
     }
-
-
 }
